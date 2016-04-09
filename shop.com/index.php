@@ -21,12 +21,13 @@ define('APP_DEBUG',true);
  * 2.如果存在,就访问之
  * 3.当使用了BIND_MODULE之后m参数失效
  */
-//define('BIND_MODULE','Admin');
+define('BIND_MODULE','Home');
 
 // 定义应用目录
-define('APP_PATH','./Application/');
+define('ROOT_PATH', __DIR__ . '/');
+define('APP_PATH',ROOT_PATH.'Application/');
 
 // 引入ThinkPHP入口文件
-require './ThinkPHP/ThinkPHP.php';
+require ROOT_PATH.'../ThinkPHP/ThinkPHP.php';
 
 // 亲^_^ 后面不需要任何代码了 就是如此简单
