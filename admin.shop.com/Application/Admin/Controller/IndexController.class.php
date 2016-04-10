@@ -5,19 +5,14 @@ class IndexController extends Controller {
     public function index(){
         $this->display();
     }
-    
-    
-    
-    public function add(){
-        
-        
+     public function top(){
+        $this->display();
+    }
+     public function main(){
+        $this->display();
+    }
+     public function menu(){
+        $this->display();
     }
     
-    public function edit(){
-        
-    }
-    
-    public function delete(){
-        
-    }
 }
